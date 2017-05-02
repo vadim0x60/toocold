@@ -5,5 +5,6 @@
   :min-lein-version "2.0.0"
   :ring {:handler toocold.handler/app}
   :main toocold.handler
+  :source-paths ["src"]
   :profiles {:dev {:dependencies [[javax.servlet/javax.servlet-api "3.1.0"]]
                    :plugins [[lein-ring "0.10.0"]]}})
