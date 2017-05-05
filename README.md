@@ -28,7 +28,7 @@ Response
 }
 ```
 
-`application/edn`, `application/x-yaml` work as well. Temperatures are in Celcius. For US cities, temperatures are converted to Celcius. We only do Celcius here. If there's any ambiguity on how to call a city, just check with Wikipedia: city names are just names of their corresponding articles.
+`application/edn`, `application/x-yaml` work as well. Temperatures are in Celcius. For US cities, temperatures are converted to Celcius. We only do Celcius here. If there's any ambiguity on what to call a city, just check with Wikipedia: city names are just names of their corresponding articles.
 
 There is also [Swagger-based interactive documentation](https://toocold.herokuapp.com/).
 
